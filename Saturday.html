@@ -1,0 +1,201 @@
+<!doctype html> 
+<html>
+<head>
+	<title>Hillary's site</title>
+	<style>
+	/* normalize.css 2011-06-23T00:50 UTC //github.com/jonathantneal/normalize.css */
+    article,aside,details,figcaption,figure,footer,header,hgroup,nav,section{display:block}html{cursor:default;font-size:100%;overflow-y:scroll;-webkit-tap-highlight-color:transparent;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body,form,input,button,select,textarea{font-size:100%;margin:0}a,a:active,a:hover{outline:none}a:focus{outline:thin dotted}abbr{_border-bottom:expression(this.title ? '1px dotted':'none')}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:bold}dfn{font-style:italic}mark{background:#FF0;color:#000}pre,code,kbd,samp{font-family:monospace,monospace;_font-family:'courier new',monospace;font-size:1em}pre{white-space:pre;white-space:pre-wrap;word-wrap:break-word}q{quotes:none}q:before,q:after{content:'';content:none}small,sub,sup{font-size:75%}sub,sup{line-height:0;position:relative;vertical-align:baseline}sup{top:-0.5em}sub{bottom:-0.25em}nav ul{list-style:none}audio[controls],canvas,video{display:inline-block;*display:inline}audio{display:none;_display:expression(this.controls ? 'inline':'none');*zoom:1}audio[controls]{display:inline-block}img{border:0;-ms-interpolation-mode:bicubic}svg:not(:root){ overflow:hidden}legend{*margin-left:-7px}button,input,select,textarea{vertical-align:baseline;*vertical-align:middle}button,input{line-height:normal;_overflow:expression(this.type == 'button|reset|submit' ? 'visible':'')}button,input[type="button"],input[type="reset"],input[type="submit"]{overflow:visible;-webkit-appearance:button}input[type="checkbox"],input[type="radio"]{box-sizing:border-box}input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type="search"]::-webkit-search-decoration{ -webkit-appearance:none}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}textarea{overflow:auto;vertical-align:top}table{border-collapse:collapse;border-spacing:0}
+
+    	@import url(http://fonts.googleapis.com/css?family=Slabo+27px);
+		
+		img {
+			width:250px;
+
+		}
+		h1 {
+			font-size: 48px;
+			color: white;
+			font-family: 'Slabo 27px', serif;  
+			font-style: oblique;
+			text-align: center; 
+		}
+		h2 {
+			background-color: yellow;
+			font-size: 32px;
+			border: 1px solid orange;
+			margin: 40px;
+			padding: 20px;
+			margin-top: 40px;
+			margin-bottom: 40px;
+			padding-bottom: 20px;
+			border-left: 1px solid red;
+			font-family: Trebuchet MS;
+			color: purple;
+			text-align: center; 
+		}
+
+		body {
+			color: #444444;
+			font-family: Helvetica, Arial, sans-serif;
+		}
+		p {
+			line-height: 1.4;
+		}
+
+		section.banner{
+			padding-top: 60px;
+			padding-bottom: 300px;
+			padding-left: 100px;
+			padding-right: 100px;
+			background-image: url('images/background.jpg');
+			background-attachment: fixed;
+		}
+
+		section.banner p {
+			font-size:18px;
+			text-align: center;
+			color: white;
+		}
+
+		section.banner h1 {
+			text-transform: uppercase;
+		}
+		
+		section.about{
+			  background-image: url('images/eight_horns.png');
+			  overflow: hidden;
+		}
+
+		section.about h2 {
+			text-align: center;
+			color: purple;
+			font-family: Trebuchet MS;
+		}
+
+		section.things,
+		section.things h2 {
+			text-align: center;
+		}
+
+
+		section.contact{
+			background: url('images/eight_horns.png'); 
+			text-align: center;
+		}
+
+		section.box{
+			padding: 50px 100px;
+		}
+
+		img.profile {
+			border: 1px solid grey;
+			float: left;
+			margin-right: 20px;
+			width: 250px;
+			padding: 5px;
+			margin-left: 20px;
+		}
+		img.logo {
+			width: 100px;
+			height: 100px;
+			margin: 0 auto;
+			display: block;
+		}
+		img.favourite {
+			border: 1px solid grey;
+			width: 200px;
+			height: 200px;
+			border-radius: 5%;
+			margin: 20px;
+		}
+		img.facebook {
+			width: 100px;
+			height: 100px;
+		}
+		img.linkedin {
+			width: 100px;
+			border: 1px;
+		}
+		
+	   	img.instagram {
+	   		width: 100px;
+	   		border-radius: 50%; 
+	   	}
+ 		
+ 		.menu{
+ 		background: white;
+ 		border-bottom: 1px solid #434A5C;
+ 		list-style: none;
+ 		margin: 0;
+ 		padding: 0;
+ 		text-align: center;
+ 		}
+
+ 		.menu li {
+ 			display: inline-block;
+ 			padding: 20px 35px;
+ 		}
+
+ 		.menu a {
+ 			color: #333333;
+ 			text-transform: uppercase;
+ 			font-weight: bold;
+ 			font-family: 'Oswald', sans-serif;
+ 			text-decoration: none;
+ 		}
+		
+		.menu {
+  			position: fixed;
+  			top: 0;
+  			left: 0;
+  			width: 100%;
+		}
+
+	</style> 
+</head>
+<body>
+	<ul class="menu">
+			<li><a href="#about">About</a></li> 
+			<li><a href="#things">Favourites</a></li>
+			<li><a href="#contact">Contact</a></li> 
+	</ul>
+
+	<section class="banner">
+		<img class="logo" src="images/logo.png">
+		<h1>Hillary Kang</h1> 
+		<p class="vancouver">Living in Metro Vancouver</p> 
+	</section>  
+
+	
+	<section id="about" class="about box">
+		<h2>About Me</h2>
+		<img class="profile" src="https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-xpa1/v/t1.0-9/10371586_10204162802492982_1998935387662880424_n.jpg?oh=90cfe7239971d550edec03c040199359&oe=5587B6E9&__gda__=1435582463_95f0a5942a7ee2659772d4f0282ec608">
+	    <p>Looking for new knowledge, exploring new places and cuisines. Areas of study: business administration in marketing and human resources.</p>
+	</section>     
+
+	<section id="things" class="things box">
+		<h2>My Favourite Things</h2>
+		<h3>Here are a few things I really love</h3>
+		<img class="favourite" src="golden-retriever.jpg">
+		<img class="favourite" src="golden-retriever.jpg">  
+		<p>I like walking out in the sunshine, daydreaming when I take long transit listening to music, watching movies.</p>
+	</section> 
+
+	<section id="contact" class="contact box"> 
+	<h2>Contact Me</h2>
+		<a href="https://www.facebook.com/hillarykang6">
+			<img class="facebook" src="images/facebook.png">
+		</a> 
+		<a href="https://www.linkedin.com/profile/view?id=149388530&trk=nav_responsive_tab_profile_pic">
+			<img class="linkedin" src="images/linkedin.png">
+		</a> 
+		<a href="https://instagram.com/hillarieous/"><img class="instagram" src="images/instagram.png">
+		</a>
+	</section> 
+	
+
+
+
+</body>
+</html> 
+
